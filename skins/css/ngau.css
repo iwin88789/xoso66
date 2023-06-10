@@ -63,11 +63,13 @@ body {
 }
 
 @media (max-width: 768px) {
-    #android-guide{
+    #android-guide,
+    #ios-guide{
         width: 80%;
         margin: auto;
     }
-    #android-guide img{
+    #android-guide img,
+    #ios-guide{
         width: 100%;
     }
     .text-taigame {
