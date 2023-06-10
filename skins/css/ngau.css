@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background: #0a2c66 url(../images/bg.jpg) 0 0 no-repeat;
+    background-position: top center;
+    background-attachment: inherit;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.logo{
+    width: 350px;
+    margin: auto;
+}
+.logo img{
+    width: 100%;
+}
+
+.container .item {
+    width: 30%;
+    margin: auto;
+}
+
+.container .item img {
+    width: 100%;
+}
+
+.sjbdmap {
+    display: none;
+}
+
+.download {
+    width: 100%;
+}
+.download img{
+    width: 25%;
+    margin: auto;
+}
+
+.download li {
+    display: inline-block;
+    margin: 0 5px
+}
+
+#android-guide,
+#ios-guide {
+    display: none;
+}
+
+#ios,
+#android,
+#desktop,
+#windows,
+#taigameandroid,
+#taigameios {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #android-guide{
+        width: 80%;
+        margin: auto;
+    }
+    #android-guide img{
+        width: 100%;
+    }
+    .text-taigame {
+        width: 50%;
+    }
+    .container {
+        width: 100%;
+    }
+    .container .logo{
+        width: 70%;
+        margin: auto;
+    }
+
+    .container .item {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .download img{
+        width: 70%;
+        margin: auto;
+    }
+    .sjbdmap {
+        display: block !important;
+    }
+    .pcbdmap {
+        display: block;
+    }
+    video{
+        width: 100%;
+    }
+}

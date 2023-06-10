@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="facebook-domain-verification" content="6pbugfufd9y8u66l8d7c8xttma9s6h">
+    <link rel="icon" href="skins/images/favicon.png">
+    <script type="text/javascript" src="skins/js/fb.js"></script>
+    <script type="text/javascript" src="skins/js/enjoy.js"></script>
+    <title>Hay88.com</title>
+    <link href="skins/css/ngau.css" rel="stylesheet">
+    <!-- <link href="skins/css/owl.carousel.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="skins/css/owl.theme.css" rel="stylesheet" type="text/css"> -->
+    <!-- <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-10799714543');
+    </script> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><img src="./skins/images/logo.png" alt=""></div>
+        <div class="item">
+            <a href=""><img src="./skins/images/slide1.png" alt=""></a>
+        </div>
+        <div class="sjbdmap">
+            <div id="shipin">
+                <div class="biankuang">
+                    <video src="./skins/video/video.mp4" muted="" autoplay="" loop="" preload="" controls=""
+                        x5-video-player-fullscreen="true" x5-playsinline="" playsinline=""
+                        webkit-playsinline=""></video>
+                </div>
+            </div>
+        </div>
+        <nav class="download" style="display: block;" id="windows">
+            <li><a href=""><img src="./skins/images/reg.png" alt=""></a></li>
+            <p style="font-size: 30px;font-weight: 600;">xsmb tỉ lệ cược<br>1ăn 99.9</p>
+        </nav>
+        <div class="slider-tutorial" id="android-guide">
+            <a href=""><img src="./skins/images/text-taigame1.png" alt="" class="taigame-text"></a>
+        </div>
+        <div class="slider-tutorial" id="ios-guide">
+            <a href=""><img src="./skins/images/text-taigame1.png" alt="" class="taigame-text"></a>
+        </div>
+    </div>
+    <script src="./skins/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="./skins/js/jquery-ui.js" type="text/javascript"></script>
+    <script src="./skins/js/owl.carousel.js" type="text/javascript"></script>
+    <script src="./skins/js/app.js" type="text/javascript"></script>
+
+    <script>
+        $(document).ready(function () {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            if (/Windows Phone/.test(userAgent)) {
+                $('#desktop').show();
+                return;
+            }
+
+            if (/android/i.test(userAgent)) {
+                $('#android, #android-guide').show();
+                return;
+            }
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                $('#ios, #ios-guide').show();
+                return;
+            }
+
+            if (/Windows/.test(userAgent) || /MSIE/.test(userAgent) || /Edge/.test(userAgent)) {
+                $('#windows').show();
+                return;
+            }
+
+            $('#desktop').show();
+        });
+
+        var showGuide = function (type) {
+            if (type == 'ios') {
+                location.href = "#ios-guide";
+                return;
+            }
+
+            if (type == 'android') {
+                location.href = "#android-guide";
+                return;
+            }
+        }
+    </script>
+</body>
+
+</html>
